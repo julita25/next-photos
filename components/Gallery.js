@@ -13,8 +13,7 @@ function Gallery({images}) {
                 key={image.id} 
                 image={image.previewURL}
                 />
-
-           
+       
             )}
             
         </>
