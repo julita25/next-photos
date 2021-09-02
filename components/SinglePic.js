@@ -14,10 +14,11 @@ function SinglePic({image}) {
     return (
         <div  className={styles.card}>
             <Image //image optimization, smaller transfered sized, loads as the user scrolls down
-                
+                alt="random pic"
+                layout="responsive"
                 quality={100}
-                width={500}
-                height={500}
+                width={800}
+                height={800}
                 src={image} 
                 />
            <likeContext.Provider value={{like, setLike}}> {/*takes like value */}    
