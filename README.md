@@ -1,4 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## PRODUCTION
+To run in production envuronment use this link
+https://next-photos.vercel.app/
 
 ## Getting Started
 
